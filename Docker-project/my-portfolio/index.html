@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vishnu P.M | Linux System Administrator</title>
+<meta name="description" content="Portfolio of Vishnu P.M, Linux System Administrator and aspiring DevOps engineer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="#home" class="brand"><span class="v">V</span>Vishnu</a>
+    <nav class="links" id="links" aria-label="Main">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="tools">
+      <button class="iconbtn" id="theme" aria-label="Switch light or dark theme">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <button class="iconbtn menubtn" id="menu" aria-label="Open menu">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="wrap">
+    <div>
+      <p class="hi">Hello, I'm</p>
+      <h1 class="name">Vishnu P.M</h1>
+      <p class="role">Linux System Administrator <span>|</span> <span>Aspiring DevOps Engineer</span></p>
+      <p class="tag">Building reliable systems, automating workflows, and exploring the cloud.</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M4 17l6-5-6-5M12 19h8"/></svg>
+          View My Projects
+          <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn ghost" href="resume.pdf" download>
+          <svg class="icon" viewBox="0 0 24 24"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></svg>
+          Download Resume
+        </a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/vizz492" aria-label="GitHub" target="_blank" rel="noopener">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M9 19c-4 1.3-4-2-6-2.5M15 21v-3.2a2.8 2.8 0 0 0-.8-2.2c2.7-.3 5.5-1.3 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.3 4.3 0 0 0-.1-3.2s-1-.3-3.3 1.3a11.4 11.4 0 0 0-6 0C6.700 2.900 5.700 3.200 5.700 3.200a4.3 4.3 0 0 0-.1 3.200A4.600 4.600 0 0 0 4.300 9.600c0 4.600 2.800 5.700 5.500 6a2.800 2.800 0 0 0-.8 2.200V21"/></svg>
+        </a>
+        <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <svg class="icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v5M8 8v.01M12 16v-5M12 13a2.500 2.500 0 0 1 5 0v3"/></svg>
+        </a>
+        <a href="mailto:your-email@example.com" aria-label="Email">
+          <svg class="icon" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="photo-area">
+      <div class="orbit"></div><div class="orbit o2"></div>
+      <span class="dot d1"></span><span class="dot d2"></span><span class="dot d3"></span>
+      <div class="ring"><div class="inner" id="photobox">
+        <img src="Photo.JPG" alt="Portrait of Vishnu P.M" onerror="this.remove();document.getElementById('photobox').textContent='V';">
+      </div></div>
+    </div>
+  </div>
+  <svg class="wave" viewBox="0 0 1440 110" preserveAspectRatio="none" aria-hidden="true">
+    <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#8b6cff"/><stop offset=".5" stop-color="#27b3ff"/><stop offset="1" stop-color="#8b6cff"/></linearGradient></defs>
+    <path d="M0 70 C240 10 480 110 760 70 S1220 20 1440 60 L1440 110 L0 110Z" fill="url(#g)" opacity=".18"/>
+    <path d="M0 70 C240 10 480 110 760 70 S1220 20 1440 60" fill="none" stroke="url(#g)" stroke-width="2"/>
+  </svg>
+</section>
+
+<div class="wrap">
+<section id="about">
+  <div class="card about">
+    <div>
+      <h2><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>About Me</h2>
+      <p>I'm a Linux server administrator with hands-on experience in VPS handling, server hardening, Nginx and Apache configuration, DNS management, and monitoring. I enjoy solving problems, automating tasks, and learning new technologies, and I'm working toward a career in DevOps.</p>
+    </div>
+    <ul class="facts">
+      <li><svg class="icon" viewBox="0 0 24 24"><path d="M12 21s7-6.200 7-11.500A7 7 0 0 0 5 9.500C5 14.800 12 21 12 21z"/><circle cx="12" cy="9.500" r="2.500"/></svg>Kerala, India</li>
+      <li><svg class="icon" viewBox="0 0 24 24"><path d="M3 9l9-5 9 5-9 5-9-5zM7 12v5c3 2 7 2 10 0v-5"/></svg>Linux, Cloud, DevOps</li>
+      <li><span class="open"><i></i>Open to opportunities</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills">
+  <h2><svg class="icon" viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>Skills</h2>
+  <div class="skills">
+    <div class="card skill"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>Linux</div>
+    <div class="card skill"><svg class="icon" viewBox="0 0 24 24"><path d="M5 7l5 5-5 5M12 18h7"/></svg>Bash scripting</div>
+    <div class="card skill"><svg class="icon" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.500"/><circle cx="6" cy="18" r="2.500"/><circle cx="18" cy="9" r="2.500"/><path d="M6 8.500v7M18 11.500c0 4-6 2-10-2"/></svg>Git and GitHub</div>
+    <div class="card skill"><svg class="icon" viewBox="0 0 24 24"><path d="M7 18a4 4 0 0 1-.5-8A6 6 0 0 1 18 8.500a4.800 4.800 0 0 1-.5 9.500z"/></svg>AWS EC2</div>
+    <div class="card skill"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2.500"/><circle cx="5" cy="19" r="2.500"/><circle cx="19" cy="19" r="2.500"/><path d="M12 7.500v4M12 11.500l-5.500 5.500M12 11.500l5.500 5.500"/></svg>Networking and DNS</div>
+    <div class="card skill"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="6" rx="1.500"/><rect x="3" y="14" width="18" height="6" rx="1.500"/><path d="M7 7h.01M7 17h.01"/></svg>Nginx and Apache</div>
+  </div>
+  <p class="learning"><b>Currently learning:</b> Docker, Python, CI/CD</p>
+</section>
+
+<section id="projects">
+  <h2><svg class="icon" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>Projects</h2>
+  <div class="projects">
+    <article class="card proj">
+      <svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="6" rx="1.500"/><rect x="3" y="14" width="18" height="6" rx="1.500"/><path d="M7 7h.01M7 17h.01"/></svg>
+      <span class="status done">Completed</span>
+      <h3>LAMP Stack Website</h3>
+      <p>Installed and configured a LAMP stack, compiled PHP, and hosted a dynamic website on a Linux server.</p>
+      <a class="pill" href="#">View project <svg class="icon" viewBox="0 0 24 24" style="width:16px;height:16px"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </article>
+    <article class="card proj">
+      <svg class="icon" viewBox="0 0 24 24"><path d="M7 18a4 4 0 0 1-.5-8A6 6 0 0 1 18 8.500a4.800 4.800 0 0 1-.5 9.500z"/></svg>
+      <span class="status">In progress</span>
+      <h3>Nginx on AWS EC2</h3>
+      <p>Practice server running Nginx on Ubuntu, with a custom domain, HTTPS, and security hardening.</p>
+      <a class="pill" href="#">View project <svg class="icon" viewBox="0 0 24 24" style="width:16px;height:16px"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </article>
+    <article class="card proj">
+      <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>
+      <span class="status done">Live</span>
+      <h3>This Portfolio Website</h3>
+      <p>My personal portfolio, built with HTML and CSS and hosted free on GitHub Pages.</p>
+      <a class="pill" href="https://github.com/vizz492/portfolio" target="_blank" rel="noopener">View project <svg class="icon" viewBox="0 0 24 24" style="width:16px;height:16px"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div>
+    <h2><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Get In Touch</h2>
+    <p>Feel free to reach out for collaboration, opportunities, or just to say hello.</p>
+  </div>
+  <div class="row">
+    <a class="btn ghost" href="mailto:your-email@example.com">
+      <svg class="icon" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Send Email
+    </a>
+    <a class="iconbtn" href="https://github.com/vizz492" aria-label="GitHub" target="_blank" rel="noopener">
+      <svg class="icon" viewBox="0 0 24 24"><path d="M9 19c-4 1.3-4-2-6-2.5M15 21v-3.2a2.8 2.8 0 0 0-.8-2.2c2.7-.3 5.5-1.3 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.3 4.3 0 0 0-.1-3.2s-1-.3-3.3 1.3a11.4 11.4 0 0 0-6 0C6.700 2.900 5.700 3.200 5.700 3.200a4.3 4.3 0 0 0-.1 3.200A4.600 4.600 0 0 0 4.300 9.600c0 4.600 2.800 5.700 5.500 6a2.800 2.800 0 0 0-.8 2.200V21"/></svg>
+    </a>
+    <a class="iconbtn" href="#" aria-label="LinkedIn" target="_blank" rel="noopener">
+      <svg class="icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v5M8 8v.01M12 16v-5M12 13a2.500 2.500 0 0 1 5 0v3"/></svg>
+    </a>
+  </div>
+</section>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Vishnu P.M. All rights reserved.</span>
+    <em>Keep Learning &bull; Keep Building &bull; Keep Growing</em>
+    <span>Powered by GitHub Pages</span>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
